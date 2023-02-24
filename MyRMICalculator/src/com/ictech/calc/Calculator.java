@@ -1,4 +1,7 @@
 package com.ictech.calc;
 
-public interface Calculator {
+import java.rmi.Remote;
+
+public interface Calculator extends Remote {
+
 }

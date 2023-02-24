@@ -1,4 +1,7 @@
 package com.ictech.calc;
 
-public class MyCalculator {
+import java.rmi.server.UnicastRemoteObject;
+
+public class MyCalculator extends UnicastRemoteObject implements Calculator {
+
 }
