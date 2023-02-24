@@ -20,11 +20,11 @@ public class MyCalculator extends UnicastRemoteObject implements Calculator {
 
     @Override
     public int MulTwoNumbers(int x, int y) throws RemoteException {
-        return 0;
+        return (x*y);
     }
 
     @Override
     public int DevtwoNumbers(int x, int y) throws RemoteException {
-        return 0;
+        return (x/y);
     }
 }
