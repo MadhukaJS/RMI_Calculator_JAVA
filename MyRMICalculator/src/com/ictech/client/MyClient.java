@@ -20,16 +20,16 @@ public class MyClient {
 
             //invoke the methods
             int addition=myCal.addTwoIntegers(12,20);
-            System.out.println("Addition is "+addition);
+            System.out.println("Addition is :"+addition);
 
             int substraction=myCal.subTwoNumbers(30,20);
-            System.out.println("substraction is "+substraction);
+            System.out.println("substraction is: "+substraction);
 
             int multiplication=myCal.MulTwoNumbers(12,2);
-            System.out.println("multiplication is "+multiplication);
+            System.out.println("multiplication is :"+multiplication);
 
             int devision=myCal.DevtwoNumbers(12,2);
-            System.out.println("Devision"+devision);
+            System.out.println("Devision is:"+devision);
 
 
         } catch (RemoteException e) {
