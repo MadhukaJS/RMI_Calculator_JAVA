@@ -25,6 +25,12 @@ public class MyClient {
             int substraction=myCal.subTwoNumbers(30,20);
             System.out.println("substraction is "+substraction);
 
+            int multiplication=myCal.MulTwoNumbers(12,2);
+            System.out.println("multiplication is "+multiplication);
+
+            int devision=myCal.DevtwoNumbers(12,2);
+            System.out.println("Devision"+devision);
+
 
         } catch (RemoteException e) {
             throw new RuntimeException(e);
