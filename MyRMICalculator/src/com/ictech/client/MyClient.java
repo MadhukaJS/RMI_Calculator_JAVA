@@ -37,5 +37,8 @@ public class MyClient {
         } catch (NotBoundException e) {
             throw new RuntimeException(e);
         }
+        catch (ArithmeticException e){
+            System.out.println("cant devide by zero"+e.getMessage());
+        }
     }
 }
