@@ -15,7 +15,7 @@ public class MyConverter extends UnicastRemoteObject implements Converter {
 
     @Override
     public int FartoCel(int x) throws RemoteException {
-        return 0;
+        return (x-32*5/9);
     }
 
     @Override
