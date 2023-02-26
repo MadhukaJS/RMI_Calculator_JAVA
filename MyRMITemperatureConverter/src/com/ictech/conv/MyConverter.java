@@ -10,7 +10,7 @@ public class MyConverter extends UnicastRemoteObject implements Converter {
 
     @Override
     public int CelToFar(int x) throws RemoteException {
-        return 0;
+        return (x*9/5+32);
     }
 
     @Override
