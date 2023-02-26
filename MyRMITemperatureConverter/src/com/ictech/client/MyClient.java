@@ -20,16 +20,16 @@ public class MyClient {
 
         //invoke the methods
             int convertion1=MyCon.CelToFar(10);
-            System.out.println("The temperature is :"+convertion1);
+            System.out.println("Celcius value is Converting to Fahrenhite :"+convertion1);
 
             int convertion2=MyCon.FartoCel(10);
-            System.out.println("The temperature is :"+convertion2);
+            System.out.println("Fahrenhite value is Converting to Celcius :"+convertion2);
 
             int convertion3=MyCon.CeltoKel(10);
-            System.out.println("The temperature is :"+convertion3);
+            System.out.println("Celcius value is Converting to Kelvin :"+convertion3);
 
             int convertion4=MyCon.KeltoCel(10);
-            System.out.println("The temperature is :"+convertion4);
+            System.out.println("Kelvin value is Converting to Celcius :"+convertion4);
 
         } catch (RemoteException | NotBoundException e) {
             throw new RuntimeException(e);

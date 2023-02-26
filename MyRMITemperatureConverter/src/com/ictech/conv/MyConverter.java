@@ -20,11 +20,11 @@ public class MyConverter extends UnicastRemoteObject implements Converter {
 
     @Override
     public int CeltoKel(int x) throws RemoteException {
-        return 0;
+        return (x+273);
     }
 
     @Override
     public int KeltoCel(int x) throws RemoteException {
-        return 0;
+        return (x-273);
     }
 }
