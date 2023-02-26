@@ -1,4 +1,30 @@
 package com.ictech.conv;
 
-public class MyConverter {
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class MyConverter extends UnicastRemoteObject implements Converter {
+
+    public MyConverter() throws RemoteException {
+    }
+
+    @Override
+    public int CelToFar(int x) throws RemoteException {
+        return 0;
+    }
+
+    @Override
+    public int FartoCel(int x) throws RemoteException {
+        return 0;
+    }
+
+    @Override
+    public int CeltoKel(int x) throws RemoteException {
+        return 0;
+    }
+
+    @Override
+    public int KeltoCel(int x) throws RemoteException {
+        return 0;
+    }
 }
