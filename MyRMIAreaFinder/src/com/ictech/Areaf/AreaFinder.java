@@ -9,6 +9,6 @@ public class AreaFinder extends UnicastRemoteObject implements MyAreaFinder{
 
     @Override
     public int square(int l, int w) throws RemoteException {
-        return 0;
+        return (l*w);
     }
 }
