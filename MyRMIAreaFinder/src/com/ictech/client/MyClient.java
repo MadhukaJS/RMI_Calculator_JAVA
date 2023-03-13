@@ -21,10 +21,7 @@ public class MyClient {
             System.out.println("area is :"+area);
 
 
-        } catch (NotBoundException e) {
-            throw new RuntimeException(e);
-
-        } catch (RemoteException e) {
+        } catch (RemoteException | NotBoundException e) {
             throw new RuntimeException(e);
         }
     }
