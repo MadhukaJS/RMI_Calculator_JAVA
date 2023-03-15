@@ -1,4 +1,6 @@
 package com.ictech.AgeCal;
 
-public interface AgeCalculator {
+import java.rmi.Remote;
+
+public interface AgeCalculator extends Remote {
 }
