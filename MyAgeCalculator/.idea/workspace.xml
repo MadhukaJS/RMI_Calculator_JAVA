@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81a3b9eb-5911-40cb-bf0a-64929ac6ba73" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ictech/AgeCal/MyAgeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ictech/AgeCal/MyAgeCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <updated>1678815286548</updated>
       <workItem from="1678815287829" duration="317000" />
       <workItem from="1678897512605" duration="230000" />
-      <workItem from="1678990182213" duration="130000" />
+      <workItem from="1678990182213" duration="163000" />
     </task>
     <servers />
   </component>
