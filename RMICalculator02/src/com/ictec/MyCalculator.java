@@ -7,5 +7,5 @@ public class MyCalculator extends UnicastRemoteObject implements calculator {
     protected MyCalculator() throws RemoteException {
     }
 
-    
+
 }
