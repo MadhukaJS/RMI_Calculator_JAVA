@@ -13,7 +13,7 @@ public class Myserver{
         Registry myReg = null;
         try {
             myReg = LocateRegistry.createRegistry(54321);
-            
+
             Calculator myCal = new MyCalculator();
 
             myReg.rebind("My Calculator server", myCal);
